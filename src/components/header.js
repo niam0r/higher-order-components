@@ -8,18 +8,20 @@ class Header extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-light">
-        <ul className="nav navbar-nav">
-          <li className="nav-item">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/resources">Resources</Link>
-          </li>
-          <li className="nav-item">
-            {this.authButton()}
-          </li>
-        </ul>
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div>
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <Link className="nav-link" to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/resources">Resources</Link>
+            </li>
+            <li className="nav-item">
+              {this.authButton()}
+            </li>
+          </ul>
+        </div>
       </nav>
     );
   }
