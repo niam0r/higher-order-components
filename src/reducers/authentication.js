@@ -6,5 +6,5 @@ export default function(state = false, action) {
       return action.payload;
   }
 
-  return this.state;
+  return state;
 }
