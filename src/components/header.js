@@ -11,7 +11,7 @@ class Header extends React.Component {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div>
           <ul className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item">
               <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
